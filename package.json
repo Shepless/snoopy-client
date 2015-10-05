@@ -1,0 +1,21 @@
+{
+  "name": "snoopy-client",
+  "version": "0.0.1",
+  "description": "Client scripts to communicate with the Snoopy server API",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "browserify": "11.2.0",
+    "gulp": "3.9.0",
+    "gulp-rename": "1.2.2",
+    "gulp-uglify": "1.4.1",
+    "through2": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shepless (http://shepless.github.io/)",
+  "license": "ISC"
+}

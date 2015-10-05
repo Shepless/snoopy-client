@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snoopy Testbed</title>
+    <script>
+        window.Snoopy = {
+            clientId: 12345,
+            clientVersion: '1.0.1',
+            applicationId: 1
+        };
+    </script>
+    <script src="dist/vanilla/snoopy.min.js"></script>
+</head>
+<body>
+<button id="foo">track me!</button>
+<input type="password" />
+<script>
+    document.getElementById('foo').addEventListener('click', function () {
+        console.log(1,2,3,4,5, {
+            foo: 'bar',
+            bar: {
+                baz: 'faz'
+            }
+        });
+        throw new Error('BAD ERROR!');
+    });
+</script>
+<script>
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+window.Snoopy = require('./lib');
